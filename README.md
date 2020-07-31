@@ -1,8 +1,34 @@
-# Github Finder
+# GitHub Finder
+
+**Create a React app that allow the user to search for GitHub users.**
+
+**Technologies:**
+React.js, HTML, CSS, GitHub API
+
+---
+
+![coming-soon](https://media.giphy.com/media/tzHn7A5mohSfe/giphy.gif)
+![coming-soon](https://media.giphy.com/media/tzHn7A5mohSfe/giphy.gif)
+![coming-soon](https://media.giphy.com/media/tzHn7A5mohSfe/giphy.gif)
+
+**Purpose:** Create a React app that utilizes functional components as well as implementing hooks and context API.
+
+---
+
+**MVP:**
+
+- [ ] User can see navagation bar.
+- [ ] User can use the alert component to...
+- [ ] User can use search form to search via GitHub API for GitHub users.
+- [ ] User can see multiple GitHub users as 'cards'.
+- [ ] User can see each indivudal GitHub user 'card' and access their profile.
+- [ ] User should see 'spinner' while the user 'cards' load.
+
+---
 
 In the project directory, you can run:
 
-### `yarn start`
+##### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -10,12 +36,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+##### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+##### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -25,7 +51,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+##### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
