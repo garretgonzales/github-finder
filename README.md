@@ -3,7 +3,7 @@
 **Create a React app that allows the user to search for GitHub users.**
 
 **Technologies:**
-React.js, HTML, CSS, GitHub API
+React.js, axios, HTML, CSS, GitHub API
 
 ---
 
