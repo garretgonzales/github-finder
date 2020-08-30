@@ -18,16 +18,6 @@ class App extends Component {
     alert: null,
   };
 
-  // async componentDidMount() {
-  //   this.setState({ loading: true });
-
-  //   const res = await axios.get(`https://api.github.com/users?client_id=$
-  //   {process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=$
-  //   {process.env.REACT_APP_GITHUB_SECRET}`);
-
-  //   this.setState({ users: res.data, loading: false });
-  // }
-
   // Search Github users
   searchUsers = async (text) => {
     this.setState({ loading: true });
@@ -39,8 +29,8 @@ class App extends Component {
     this.setState({ users: res.data.items, loading: false });
   };
 
-  // Get User Repos
-  getUserRepos = async (username) => {
+  // Get a single Github user
+  getUser = async (username) => {
     this.setState({ loading: true });
 
     const res = await axios.get(`https://api.github.com/users/${username}?client_id=$
@@ -50,8 +40,8 @@ class App extends Component {
     this.setState({ user: res.data, loading: false });
   };
 
-  // Get a single Github user
-  getUser = async (username) => {
+  // Get User Repos ---- edit asap ---- just a copy
+  getUserRepos = async (username) => {
     this.setState({ loading: true });
 
     const res = await axios.get(`https://api.github.com/users/${username}?client_id=$
